@@ -1,0 +1,6 @@
+function portero(nombre, numero) {
+    if (numero < 18){
+        console.log ("Hola " + nombre + " eres menor de edad. No puedes pasar")}
+else { ("Hola" + nombre + "eres mayor de edad. Puedes pasar") }
+    }
+portero("Ana", 17)
