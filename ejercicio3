@@ -1,0 +1,13 @@
+function medio(a,b,c){
+    if (a<b && b<c){
+        return b
+    }
+    if (a>b && a<c){
+        return a
+    }
+    else{
+        return c
+    }
+}
+console.log(medio (3,8,9))
+console.log(medio(9,3,7))
